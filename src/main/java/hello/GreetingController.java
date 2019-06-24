@@ -21,5 +21,10 @@ public class GreetingController {
         
         return "halo";
     }
+    
+    @GetMapping("/pendidikan")
+    public String pendidikan() {
+        return "pendidikan";
+    }
 
 }
